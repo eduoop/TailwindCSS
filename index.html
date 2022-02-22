@@ -126,11 +126,99 @@
 
     <div class="px-6 py-4 space-x-3">
         <button class="bg-blue-600 px-6 py-2 rounded-md text-white shadow-md hover:bg-blue-500">Save</button>
-        <button class="bg-red-600 px-7 py-2 shadow-md text-white font-bold rounded-md hover:bg-red-400">Delete</button>
+        <button class="bg-red-600 px-7 py-2 shadow-md text-white font-bold rounded-md hover:bg-red-500">Delete</button>
         <div class="space-y-4">
             <div class="inline-flex bg-green-300 text-sm items-center px-1.5 py-0.5 rounded-md text-green-900 font-bold">Active</div>
 
             <div class="inline-flex bg-red-200 text-sm items-center px-1.5 py-0.5 rounded-md text-red-900 font-bold">Inactive</div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="space-y-2">
+        <div class="p-6">
+            <h6 class="font-bold mb-2">Component imput</h6>
+            <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+             rounded-md px-2 py-1 font-semibold focus:border-blue-600
+            text-gray-900 placeholder-gray-400" placeholder="Your name">
+        </div>
+wqfqf
+        <div class="p-6">
+            <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+             rounded-md px-3 py-2 font-semibold focus:border-blue-600
+            text-gray-900 placeholder-gray-400" placeholder="Your name">
+        </div>
+
+        <div class="p-6">
+            <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+             rounded-md px-3 py-3 font-bold focus:border-blue-600
+            text-gray-900 placeholder-gray-400" placeholder="Your name">
+        </div>
+
+        <div class="p-6">
+            <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+             rounded-md px-3 py-3 font-bold focus:border-blue-600 focus:ring-2 ring-blue-500 focus:ring-opacity-25
+            text-gray-900 placeholder-gray-400" placeholder="Your name">
+        </div>
+
+        <div class="p-6">
+            <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+             rounded-md px-3 py-3 font-bold focus:border-blue-600 focus:ring-2 ring-blue-500 focus:ring-opacity-25
+            text-gray-900 placeholder-gray-400 transition duration-200 ease-in-out" placeholder="Your name with transition">
+        </div>
+    </div>
+    <hr>
+
+    <div class="container mx-auto px-4 py-8 overflow-hidden">
+        <h6 class="font-bold mb-2">Component dropdow</h6>
+
+        <div class="relative">
+            <button class="flex items-center bg-gray-50 text-md shadow py-2 px-3 rounded ease-in-out duration-300">
+                Botão 
+                <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg>
+            </button>
+            <div class="absolute hidden bg-white border border-gray-300 py-1 shadow-md rounded-md"
+            style="width: 200px;">
+                <a href="" class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-100">Link 1</a>
+                <a href="" class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-100">Link 2</a>
+                <a href="" class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-100">Link 3</a>
+                <a href="" class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-100">Link 4</a>
+                <a href="" class="block text-sm text-gray-500 px-3 py-1 bg-white hover:bg-gray-100">Link 5</a>
+            </div>
+
+            <div class="p-6">
+                <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+                 rounded-md px-3 py-3 font-bold focus:border-blue-600 focus:ring-2 ring-blue-500 focus:ring-opacity-25
+                text-gray-900 placeholder-gray-400" placeholder="Your name">
+            </div>
+            <div class="p-6">
+                <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+                 rounded-md px-3 py-3 font-bold focus:border-blue-600 focus:ring-2 ring-blue-500 focus:ring-opacity-25
+                text-gray-900 placeholder-gray-400" placeholder="Your name">
+            </div>
+
+            <div class="p-6">
+                <input type="text" class="w-full bg-gray-50 border border-gray-300 focus:outline-none
+                 rounded-md px-3 py-3 font-bold focus:border-blue-600 focus:ring-2 ring-blue-500 focus:ring-opacity-25
+                text-gray-900 placeholder-gray-400" placeholder="Your name">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="max-w-md">
+        <h2 class="font-bold text-center text-lg mb-4">Login</h2>
+
+        <div class="bg-white shadow-md rounded-md p-4">
+            <div>
+                <label for="email" class="text-gray-800 ma">E-mail</label>
+                <input  type="text" id="email">
+            </div>
+
+            <div>
+                <label for="password">Senha</label>
+                <input type="text" id="password">
+            </div>
         </div>
     </div>
 </body>
